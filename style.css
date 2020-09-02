@@ -1,9 +1,9 @@
 
 /********************* html tags *********************/
 body {
+  background-color: #7F7E96;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
-  background-color: #7F7E96;
 }
 
 section{
@@ -121,6 +121,9 @@ div img {
 
 /********************* skills section *********************/
 
+#skills{
+  background-color: #fff;
+}
 .row{
   padding-top: 15px;
 }
