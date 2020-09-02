@@ -1,3 +1,5 @@
+
+/********************* html tags *********************/
 body {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -47,6 +49,7 @@ div img {
   border-radius: 100%;
 }
 
+/********************* title section *********************/
 #title{
   background-color: #7F7E96;
   padding-top: 20px;
@@ -94,6 +97,7 @@ div img {
   background-color: #7F7E96;
 }
 
+/********************* profile & projects sections *********************/
 #profile, #projects {
   background-color: #B5A39C;
 }
@@ -107,9 +111,17 @@ div img {
   padding: 50px 100px 0 10px;
 }
 
+.dogs {
+  float: none;
+  width: 550px;
+  border-radius: 0;
+}
+
+
+/********************* skills section *********************/
+
 .row{
   padding-top: 15px;
-  text-align: left;
 }
 
 .skill{
@@ -123,9 +135,8 @@ div img {
   color: #3A2131;
 }
 
-.col-md-3{
-  padding-left: 70px;
-}
+
+/********************* contact info section *********************/
 
 #contact{
   background-color: #3A2131;
@@ -154,16 +165,12 @@ a:hover{
   margin: 20px;
 }
 
-.dogs {
-  float: none;
-  width: 550px;
-  border-radius: 0;
-}
-
 .comments{
   padding: 20px 0 0 10px;
   width: 55%;
 }
+
+/********************* footer *********************/
 
 #footer{
   background-color: #7F7E96;
@@ -171,6 +178,9 @@ a:hover{
   color: #fff;
 
 }
+
+/********************* responsiveness *********************/
+
 @media (max-width: 768px) {
   h1{
     font-size: 5rem;
@@ -189,14 +199,15 @@ a:hover{
     float: none;
   }
 
+  .row{
+    text-align: center;
+  }
+  .skill{
+    font-size: 1rem;
+  }
+
   .dogs{
     width: 350px;
   }
 
-}
-
-@media (max-width: 500px){
-  .skill{
-    font-size: 0.5rem;
-  }
 }
