@@ -158,7 +158,6 @@ a:hover{
   float: none;
   width: 550px;
   border-radius: 0;
-  padding:
 }
 
 .comments{
@@ -189,13 +188,15 @@ a:hover{
     width: 60%;
     float: none;
   }
-  
-  .skill{
-    font-size: 0.8rem;
-  }
 
   .dogs{
     width: 350px;
   }
 
+}
+
+@media (max-width: 500px){
+  .skill{
+    font-size: 0.5rem;
+  }
 }
