@@ -212,5 +212,8 @@ a:hover{
   .dogs{
     width: 350px;
   }
+  .comments{
+    width: 80%;
+  }
 
 }
