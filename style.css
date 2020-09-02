@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+section{
+  padding: 20px 0 50px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 8rem;
+  color: #3D0A53;
+  padding-top: 100px;
+  text-shadow: #fff 1px 0 10px;
+}
+h2 {
+  font-family: 'Alata', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #5C2D38;
+  padding: 50px 0 10px;
+
+}
+h3{
+  font-family: 'Alata', sans-serif;
+  font-size: 2.5rem;
+  color: #432B3B;
+  padding-bottom: 20px;
+}
+h4 {
+  color: #797a7e;
+}
+hr {
+  border-width: 10px 0 0;
+  border-style: dotted;
+  width: 20%;
+}
+
+p{
+  line-height: 1.6rem;
+}
+
+div img {
+  width: 57%;
+  float: right;
+  border-radius: 100%;
+}
+
+#title{
+  background-color: #7F7E96;
+  padding-top: 20px;
+  background-image: url("pictures/bg.jpg");
+  background-position: 0 40%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.intro{
+  padding: 50px 0 0;
+}
+
+.navbar {
+  padding: 0;
+  background-color: #7F7E96;
+}
+
+.navbar-brand {
+  font-family: 'Alata', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.nav-item {
+  padding: 0 14px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-nav {
+  padding-right: 2rem;
+}
+
+.navbar-toggler {
+  padding-right: 0.5rem;
+}
+
+#navbarNavAltMarkup {
+  background-color: #7F7E96;
+}
+
+#profile, #projects {
+  background-color: #B5A39C;
+}
+
+.profile-content {
+  text-align: left;
+  padding: 5px 30px;
+}
+
+.profile-content-text{
+  padding: 50px 100px 0 10px;
+}
+
+.row{
+  padding-top: 15px;
+  text-align: left;
+}
+
+.skill{
+  font-size: 1.4rem;
+}
+.stars{
+  color: #BFBEBD;
+}
+
+.stars-filled{
+  color: #3A2131;
+}
+
+.col-md-3{
+  padding-left: 70px;
+}
+
+#contact{
+  background-color: #3A2131;
+}
+
+#contact h2{
+  color: #fff;
+  font-weight: lighter;
+}
+
+.contact-info a{
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 50%;
+}
+
+a:hover{
+  text-decoration: none;
+  opacity: 100%;
+}
+
+.contact-row{
+  text-align: center;
+  margin: 20px;
+}
+
+.dogs {
+  float: none;
+  width: 550px;
+  border-radius: 0;
+  padding:
+}
+
+#footer{
+  background-color: #7F7E96;
+  padding: 30px;
+  color: #fff;
+
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 5rem;
+    padding-top: 30px;
+  }
+  .profile-content {
+    text-align: center;
+  }
+
+  .profile-content-text{
+    padding: 10px 50px;
+  }
+
+  div img {
+    width: 60%;
+    float: none;
+  }
+
+  .dogs{
+    width: 350px;
+  }
+
+}
