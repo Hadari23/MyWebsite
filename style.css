@@ -189,6 +189,10 @@ a:hover{
     width: 60%;
     float: none;
   }
+  
+  .skill{
+    font-size: 0.8rem;
+  }
 
   .dogs{
     width: 350px;
