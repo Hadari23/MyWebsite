@@ -15,8 +15,3 @@
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
   })();
-
-/* close collapsing menu */
-  $('.nav-link').on('click',function() {
-    $('.navbar-collapse').collapse('hide');
-  });
