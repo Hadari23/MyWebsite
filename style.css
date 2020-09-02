@@ -129,6 +129,8 @@ div img {
 
 #contact{
   background-color: #3A2131;
+  color: #fff;
+  font-weight: lighter;
 }
 
 #contact h2{
@@ -157,6 +159,11 @@ a:hover{
   width: 550px;
   border-radius: 0;
   padding:
+}
+
+.comments{
+  padding: 20px 0 0 10px;
+  width: 55%;
 }
 
 #footer{
