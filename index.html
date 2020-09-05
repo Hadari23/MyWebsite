@@ -19,44 +19,47 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0" id="hadar">
   <section id="title">
-      <div class="container">
-        <!-- navigation bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
-          <a class="navbar-brand" href="#">Hadar Robinzon</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <!-- <li class="nav-item">
+    <div class="container">
+      <!-- navigation bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+        <a class="navbar-brand" href="#">Hadar Robinzon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#title">Home</a>
             </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#profile">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dogs">Dogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      </div>
-      <!-- Headline -->
-      <div class="intro">
-        <h1>Hello World!</h1>
-        <h4>I'm Hadar</h4>
-      </div>
-      <div class="header"></div>
+    </div>
+    <!-- Headline -->
+    <div class="intro">
+      <h1>Hello World!</h1>
+      <h4>I'm Hadar</h4>
+    </div>
+    <div class="header"></div>
   </section>
 
-<!-- Profile section -->
+  <!-- Profile section -->
   <section id="profile">
     <div class="profile container">
       <div class="profile-header">
@@ -68,11 +71,11 @@
       <hr>
       <div class="row">
         <div class="col-md-6 profile-content">
-          <img src="pictures/myProfile.jpg" alt="me">
+          <img class="profile-image" src="pictures/myProfile.jpg" alt="me">
         </div>
-        <div class="col-md-6 profile-content profile-content-text">
+        <div class="col-md-6 profile-content">
           <h3>About Me</h3>
-          <p>
+          <p class="profile-content-text">
 
             Hi, I'm Hadar Robinzon and I'm looking for adventures!
             I'm on my last year of computer science and linguistics Bachlor degree in Tel-Aviv university.
@@ -84,7 +87,7 @@
     </div>
   </section>
 
-<!-- My skills section -->
+  <!-- My skills section -->
   <section id="skills">
     <div class="container">
       <h2>Skills</h2>
@@ -97,33 +100,35 @@
           </p>
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ ★ </span>
-          <span class="stars">★</span>
+          <span class="stars stars-filled">★ ★ ★ ★ ★</span>
         </div>
-        <div class="col-6 col-lg-3">
-          Python
-        </div>
-        <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ ★ </span>
-          <span class="stars">★</span>
-        </div>
-      </div>
-      <div class="row skill">
         <div class="col-6 col-lg-3">
           <p>
             HTML
           </p>
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ </span>
-          <span class="stars">★ ★</span>
+          <span class="stars stars-filled">★ ★ ★ ★ ★</span>
+        </div>
+      </div>
+      <div class="row skill">
+        <div class="col-6 col-lg-3">
+          <p>
+            Python
+          </p>
         </div>
         <div class="col-6 col-lg-3">
-          CSS
+          <span class="stars stars-filled">★ ★ ★ ★ </span>
+          <span class="stars">★</span>
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ </span>
-          <span class="stars">★ ★</span>
+          <p>
+            CSS
+          </p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <span class="stars stars-filled">★ ★ ★ ★ </span>
+          <span class="stars">★</span>
         </div>
       </div>
       <div class="row skill">
@@ -133,15 +138,18 @@
           </p>
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ </span>
-          <span class="stars">★ ★</span>
+          <span class="stars stars-filled">★ ★ ★ ★</span>
+          <span class="stars"> ★</span>
         </div>
         <div class="col-6 col-lg-3">
-          JavaScript
+          <p>
+            JavaScript
+          </p>
+
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ ★ </span>
-          <span class="stars">★ ★</span>
+          <span class="stars stars-filled">★ ★ ★ ★ </span>
+          <span class="stars">★</span>
         </div>
       </div>
       <div class="row skill">
@@ -155,11 +163,13 @@
           <span class="stars">★ ★</span>
         </div>
         <div class="col-6 col-lg-3">
-          jQuery
+          <p>
+            jQuery
+          </p>
         </div>
         <div class="col-6 col-lg-3">
-          <span class="stars stars-filled">★ ★ </span>
-          <span class="stars">★ ★ ★</span>
+          <span class="stars stars-filled">★ ★ ★ </span>
+          <span class="stars">★ ★</span>
         </div>
       </div>
       <hr />
@@ -176,7 +186,9 @@
           <span class="stars stars-filled">★ ★ ★ ★ ★</span>
         </div>
         <div class="col-6 col-lg-3">
-          English
+          <p>
+            English
+          </p>
         </div>
         <div class="col-6 col-lg-3">
           <span class="stars stars-filled">★ ★ ★ ★ ★</span>
@@ -193,7 +205,10 @@
           <span class="stars">★</span>
         </div>
         <div class="col-6 col-lg-3">
-          Spanish
+          <p>
+            Spanish
+          </p>
+
         </div>
         <div class="col-6 col-lg-3">
           <span class="stars stars-filled">★ </span>
@@ -206,14 +221,39 @@
 
   <!-- My projects -->
   <section id="projects">
-    <h2>No projects to show yet.</h2>
-    <p>
-      So, have a look at my dogs!
-    </p>
+    <div class="container">
+      <h2>Projects</h2>
+      <hr />
+      <div class="wrapper row">
+        <div class="col-lg-6">
+        <div class="media" id="decrypt">
+          <div class="layer">
+            <p>Secret message decrypting
+              <br />a school project in Python.</p>
+          </div>
+          <img class="project-photo" src="pictures/code.png" alt="python code" />
+        </div>
+      </div>
+<div class="col-lg-6">
+        <div class="media" id="viosense">
+          <div class="layer">
+            <p> Viosense
+              <br /> Safe@Home hackathon.</p>
+          </div>
+          <img class="project-photo" src="pictures/viosenseLogoGreen.png" alt="viosense" />
+        </div>
+      </div>
+    </div>
 
-    <hr />
+  </section>
+  <section id="dogs">
 
     <!-- dogs carousel -->
+    <h2>Dogs</h2>
+    <p>
+      My cute dogs in the present and past.
+    </p>
+    <hr />
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -253,7 +293,8 @@
       </a>
     </div>
   </section>
-<!-- Contact info -->
+
+  <!-- Contact info -->
   <section id="contact">
     <div class="container">
 
@@ -281,8 +322,8 @@
       </div>
     </div>
     <div class="container comments" id="disqus_thread"></div>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </section>
 
   <section id="footer">
     © Created by Hadar Robinzon 2020
