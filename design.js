@@ -15,3 +15,17 @@
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
   })();
+
+/* close collapsing menu */
+  $('.nav-link').on('click',function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+/* link projects */
+$("#viosense").click(function(){
+  window.location.href="https://youtu.be/s1gd8lGK7ao";
+});
+
+$("#decrypt").click(function(){
+  window.location.href="https://github.com/Hadari23/encryptedMessageRiddle";
+});
